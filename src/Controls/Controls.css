@@ -1,0 +1,45 @@
+.controls {
+  display: flex;
+
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.75);
+
+  padding: 20px;
+
+  max-height: 100vh;
+  max-width: 250px;
+
+  overflow: auto;
+}
+
+.controls-row {
+  margin-bottom: 10px;
+}
+
+.controls-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.controls-actions p {
+  color: white;
+}
+
+label span {
+  display: block;
+
+  color: white;
+
+  margin-bottom: 5px;
+}
+
+label input[type=text],
+label input[type=number] {
+  width: 200px;
+
+  border: 0;
+
+  outline: 0;
+
+  padding: 10px;
+}
